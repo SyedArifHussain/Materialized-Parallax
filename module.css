@@ -1,0 +1,79 @@
+.top-project-intro .parallax-container {
+    position: relative;
+    overflow: hidden;
+}
+.top-project-intro section {
+    display: block;
+}
+.top-project-intro .material-parallax {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    right: -1px;
+    bottom: 0;
+    z-index: 0;
+}
+.top-project-intro .parallax-content {
+    position: relative;
+    z-index: 1;
+}
+.top-project-intro .section-full-default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80.63vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.top-project-intro .context-dark, .bg-gray-600, .bg-gray-700, .bg-primary, .context-dark h1, .bg-gray-600 h1, .bg-gray-700 h1, .bg-primary h1, .context-dark h2, .bg-gray-600 h2, .bg-gray-700 h2, .bg-primary h2, .context-dark h3, .bg-gray-600 h3, .bg-gray-700 h3, .bg-primary h3, .context-dark h4, .bg-gray-600 h4, .bg-gray-700 h4, .bg-primary h4, .context-dark h5, .bg-gray-600 h5, .bg-gray-700 h5, .bg-primary h5, .context-dark h6, .bg-gray-600 h6, .bg-gray-700 h6, .bg-primary h6, .context-dark [class^='heading-'], .bg-gray-600 [class^='heading-'], .bg-gray-700 [class^='heading-'], .bg-primary [class^='heading-'] {
+    color: #ffffff;
+}
+
+.top-project-intro .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.top-project-intro .divider-vertical {
+    margin-top: 10px;
+}
+
+.top-project-intro .divider-vertical {
+    display: block;
+}
+
+.top-project-intro .divider-vertical-secondary-light:before {
+    background-color: #ffdf61;
+}
+.top-project-intro .divider-vertical:before {
+    display: inline-block;
+    content: '';
+    width: 3px;
+    height: 40px;
+    background-color: #ffdf61;
+}
+
+.top-project-intro .button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #1e5ea8; 
+    border: none;
+  
+  
+  }
+
+.top-project-intro .button:hover {background-color: #ffdf61}
+
+.top-project-intro .button:active {
+  background-color: #3e8e41;
+}
